@@ -5,7 +5,7 @@ Alati koji će biti korišćeni na ovom kursu:
 
 * **Anaconda (ver 2.3) - Python (ver 2.7)** distribucija sa preko 300 paketa za naučno istraživanje. Sadrži Python, PIP package manager i pomenute pakete/biblioteke.
 
-* **OpenCV (ver 3.0.0)** - alati za računarsku viziju (eng. computer vision)
+* **OpenCV (ver 3.0.0)** - alati za računarsku viziju (eng. computer vision)  - **OPCIONO**
 
 * **Theano (ver 0.7)** - Python biblioteka za optimizovanje simboličkih matematičkih izraza i numeričkih izračunavanja. 
 Može da se izvršava na grafičkoj kartici (GPU) - CUDA, OpenCL...

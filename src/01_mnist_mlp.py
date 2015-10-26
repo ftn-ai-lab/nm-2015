@@ -53,8 +53,8 @@ model.add(Activation('sigmoid'))
 model.add(Dense(10))
 model.add(Activation('sigmoid'))
 
-# definisanje SGD
-sgd = SGD(lr=0.01, momentum=0.9)
+# definisanje SGD, lr je learning rate
+sgd = SGD(lr=0.01)
 
 # kompajliranje modela (Theano) - optimizacija svih matematickih izraza
 model.compile(loss='mse', optimizer=sgd)
