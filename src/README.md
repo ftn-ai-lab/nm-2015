@@ -32,6 +32,6 @@ Primer heat mape za klasu *dog* (crvenije/toplije nijanse su indikator većih ve
 
 Krajni cilj je da, na osnovu dobijene heat mape, na originalnoj slici obeležiti prepoznate objekte.
 
-** Testirati nad slikama ** "images/02_\*.jpg"
+**Testirati nad slikama** "images/02_\*.jpg"
 
 ------
