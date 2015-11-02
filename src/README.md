@@ -17,6 +17,7 @@ Eksperimentisati sa:
 ## 02_cifar10_cnn.py
 
 Implementirana CNN za CIFAR10 dataset. Moguće je koristiti težine već obučene CNN učitavanjem fajla *02_cifar10_cnn.hdf5*.
+
 **Napomena:** Ukoliko budete menjali samu arhitekturu CNN, moraćete je ponovo obučiti, tj. neće biti moguće koristiti težine prethodno obučene CNN.
 
 ### Zadatak
@@ -31,6 +32,6 @@ Primer heat mape za klasu *dog* (crvenije/toplije nijanse su indikator većih ve
 
 Krajni cilj je da, na osnovu dobijene heat mape, na originalnoj slici obeležiti prepoznate objekte.
 
-** Testirati nad slikama "images/02_*.jpg"**
+** Testirati nad slikama ** "images/02_\*.jpg"
 
 ------
