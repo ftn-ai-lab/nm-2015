@@ -28,7 +28,7 @@ Napomena: Biće prikazano uputstvo za instalaciju za Windows OS (ali i za Linux 
 
 ----
 
-### Instalacija - OpenCV
+### Instalacija - OpenCV (OPCIONO)
 
 
 1. Preuzeti datoteku **opencv-3.0.0.exe** sa [http://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.0.0/](http://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.0.0/).
@@ -53,13 +53,12 @@ conda install mingw libpython
 
 ```code
 conda update conda
-conda update anaconda
 ```
 
-* 3. Sad još samo instalirati Theano sa PIP:
+* 3. Sad još samo instalirati Theano sa PIP (*bleeding-edge* verzija):
 
 ```code
-pip install Theano
+pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 ```
 
 ----
@@ -69,7 +68,7 @@ pip install Theano
 1. Potrebno je samo instalirati Keras sa PIP, dakle otvoriti **Command prompt** i uneti:
 
 ```code
-pip install Keras
+pip install keras
 ```
 
 ----
