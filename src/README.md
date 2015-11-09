@@ -38,6 +38,15 @@ Krajni cilj je da, na osnovu dobijene heat mape, na originalnoj slici obeležiti
 
 ## 03_imdb_cnn.py
 
+Da bi reči recenzija konvertovali u vektor, prvo je neophodno izvršiti tokenizaciju teksta (tekst -> izdvojene reči). Za tokenzaciju korisšćenja je biblioteka NLTK (natural language tokenizer), koja je deo Anaconda okruženja. Za tokenizaciju pomoću NLTK potrebno je skinuti određen korpus tokenizera, odnosno u Python konzoli izvršiti sledeće:
+
+```python
+import nltk
+nltk.download()
+```
+
+Ovo će otvoriti NLTK GUI za download raznih tokenizera, ali za ovaj demo preuzeti samo punkt tokenizator: **Models -> punkt -> download**. Kada je download završen, zatvoriti NLTK GUI.
+
 ### Zadatak
 
 * Eksperimentisati sa parametrima i strukturom 1D konvolutivne neuronske mreže u cilju povećanja tačnosti klasifikacije.
