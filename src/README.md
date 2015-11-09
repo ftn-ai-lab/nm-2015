@@ -51,4 +51,5 @@ Krajni cilj je da, na osnovu dobijene heat mape, na originalnoj slici obeležiti
 ### Zadatak
 
 * Eksperimentisati sa parametrima autoenkodera u cilju dobijanja što bolje rekonstrukcije ulaza, ali sa što manje neurona u prelaznom sloju (izlaz enkodera i ulaz dekodera).
-* 
+
+------
