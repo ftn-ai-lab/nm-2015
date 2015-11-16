@@ -62,3 +62,11 @@ Ovo će otvoriti NLTK GUI za download raznih tokenizera, ali za ovaj demo preuze
 * Eksperimentisati sa parametrima autoenkodera u cilju dobijanja što bolje rekonstrukcije ulaza, ali sa što manje neurona u prelaznom sloju (izlaz enkodera i ulaz dekodera).
 
 ------
+
+## 05_lstm_email_generation.py
+
+### Zadatak
+
+* Eksperimentisati sa generisanjem nad raznim podacima u vidu sekvenci.
+
+------
