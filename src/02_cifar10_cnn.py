@@ -89,7 +89,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd)
 
 # ucitavanje snimljenih tezina iz prethodnog obucavanja
 if test_only:
-    model.load_weights('02_cifar10_cnn.hdf5')
+    model.load_weights('weights/02_cifar10_cnn.hdf5')
 
 X_train = X_train.astype("float32")
 X_test = X_test.astype("float32")
@@ -148,7 +148,7 @@ else:
         if save_weights and score < best_score:
             best_score = score
             best_epoch = e
-            model.save_weights('02_cifar10_cnn.hdf5', overwrite=True)
+            model.save_weights('weights/02_cifar10_cnn.hdf5', overwrite=True)
         
         print("Best epoch", best_epoch)
 
