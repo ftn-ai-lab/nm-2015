@@ -12,6 +12,8 @@ import os
 
     Potrebno bar 100k karaktera za obučavanje, 1M bi bilo poželjnije,
     (dataset sa studenskim emailovima ima oko 180k karaktera).
+    
+    Obučavanje po epohi ~140s na NVidia GTX 770.
 '''
 
 # ucitavanje emailova
